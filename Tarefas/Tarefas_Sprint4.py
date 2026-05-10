@@ -66,7 +66,7 @@ exibir_grafo(grafo_crm)
 # e Confirmação usando fila de prioridade.
 #
 # A fila garante que o nó de menor custo acumulado é sempre
-# processado primeiro — intuição gulosa do algoritmo.
+# processado primeiro -> intuição gulosa do algoritmo.
 
 def dijkstra(grafo, inicio, destino):
     # Fila: (custo_acumulado, nó_atual, caminho_percorrido)
@@ -79,13 +79,13 @@ def dijkstra(grafo, inicio, destino):
         # Retira sempre o nó de menor custo da fila
         custo_atual, no_atual, caminho = heapq.heappop(fila)
 
-        # Nó já processado com custo menor anteriormente — ignora
+        # Nó já processado com custo menor anteriormente -> ignora
         if no_atual in visitados:
             continue
 
         visitados[no_atual] = custo_atual
 
-        # Destino atingido — retorna resultado
+        # Destino atingido -> retorna resultado
         if no_atual == destino:
             return custo_atual, caminho
 

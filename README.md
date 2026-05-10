@@ -5,6 +5,18 @@ Disciplina: Dynamic Programming | Turma: 2ESPR
 
 ---
 
+## Integrantes
+
+| Nome | RM |
+|---|---|
+| Enzo Luciano | RM559557 |
+| Alexandre Colvet | RM560059 |
+| Luigi Thiengo | RM560755 |
+| Samuel Baecker | RM559269 |
+| Pedro Scarceli | RM561023 |
+
+---
+
 ## Sobre o Sprint
 
 O fluxo de captação do CRM do Hospital São Rafael foi modelado como um **grafo direcionado ponderado**. O objetivo é encontrar o caminho mais eficiente, em tempo, para conduzir um lead desde a entrada no sistema até a confirmação como paciente, usando o algoritmo de Dijkstra.
@@ -94,14 +106,6 @@ Necessário apenas Python 3.x, sem dependências externas.
 | Fila de prioridade (heapq) | Núcleo do algoritmo de Dijkstra |
 | Intuição gulosa | Sempre processa o menor custo disponível |
 | Recursão | Mapeamento de todos os caminhos possíveis |
-
----
-
-## Integrantes
-
-| Nome | RM |
-|---|---|
-| Enzo Luciano | — |
 
 ---
 
